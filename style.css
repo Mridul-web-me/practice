@@ -1,11 +1,27 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: justify;
 }
 
+.btn {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: #fff;
+    border-radius: 5px;
+}
 
+p {
+    color: #696969;
+}
 
 .banner {
     display: flex;
+    padding: 0 5%;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
 }
 
 .half-width {
@@ -14,4 +30,12 @@ body {
 
 .banner .half-width img {
     width: 80%;
+}
+
+.banner .half-width h1 {
+    font-size: 50px;
+}
+
+.banner .half-width h1 .cng {
+    color: orange;
 }
