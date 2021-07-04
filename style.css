@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.banner {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.banner .half-width img {
+    width: 80%;
+}
