@@ -36,7 +36,7 @@ p {
     font-size: 50px;
 }
 
-.banner .half-width h1 .cng {
+.cng {
     color: orange;
 }
 
@@ -59,4 +59,50 @@ p {
 
 .dream-big .half-width:nth-child(2) {
     padding-right: 5%;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 100px;
+}
+
+.experience .experience-content {
+    display: flex;
+    padding: 5%;
+
+}
+
+.experience h1 {
+    font-size: 40px;
+
+}
+
+.experience .exp-head {
+    text-align: center;
+}
+
+.full-web {
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 25px 0 50px 20px;
+    margin-right: 15px;
+    width: 50%;
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.baby-web {
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 25px 0 50px 20px;
+    margin-left: 15px;
+    width: 50%;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
